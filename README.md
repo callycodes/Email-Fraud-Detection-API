@@ -59,6 +59,15 @@ I would receive a response of:
     "is_personal": true
 }
 
+Response Breakdown:
+biggest_intent - this contains the most profound intent
+company_data - information of a company if the sender name matches a business name
+domain_match - is the company_datas registered website domain included in the email senders address
+domain_warning - displayed if a personal email domain is used and a company name used as sender name
+intents - contains lists of intents found and the confidence of the AI that this intent matches
+is_gov - is .gov domain found within the sender email
+is_personal - is @gmail found within the sender email
+
 ## How we built it
 
 This was built using Flask to host a local server, the Clearbit Public API for retrieving company data, and using Google DialogueFlow for the AI which determines intent. 

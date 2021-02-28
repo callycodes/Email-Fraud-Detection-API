@@ -59,14 +59,14 @@ I would receive a response of:
     "is_personal": true
 }
 
-Response Breakdown:
-biggest_intent - this contains the most profound intent
-company_data - information of a company if the sender name matches a business name
-domain_match - is the company_datas registered website domain included in the email senders address
-domain_warning - displayed if a personal email domain is used and a company name used as sender name
-intents - contains lists of intents found and the confidence of the AI that this intent matches
-is_gov - is .gov domain found within the sender email
-is_personal - is @gmail found within the sender email
+Response Breakdown:\n
+biggest_intent - this contains the most profound intent\n
+company_data - information of a company if the sender name matches a business name\n
+domain_match - is the company_datas registered website domain included in the email senders address\n
+domain_warning - displayed if a personal email domain is used and a company name used as sender name\n
+intents - contains lists of intents found and the confidence of the AI that this intent matches\n
+is_gov - is .gov domain found within the sender email\n
+is_personal - is @gmail found within the sender email\n
 
 ## How we built it
 
